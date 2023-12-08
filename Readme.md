@@ -15,14 +15,14 @@
 
         - "Header: { "Authorization": "Bearer {token}" }"
 
-* ``/user`` Pega o usuário pelo token passado;
+* ``/user`` Pegar o usuário pelo token passado;
 
         - "Header: { "Authorization": "Bearer {token}" }"
 
-* ``/signup`` Para fazer cadastro do usuário;
+* ``/signup`` Fazer cadastro do usuário;
 
         - "nome: Lucas, email: lucas@json.com, senha: 123456, telefones: [{numero: 123456789, ddd: 11}]"
 
-* ``/signin`` Para fazer login do usuário;
+* ``/signin`` Fazer login do usuário;
 
         - "email: lucas@json.com, senha: 123456"
